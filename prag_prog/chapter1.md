@@ -90,7 +90,7 @@ _Pragmatic Programmers_ look beyond the immediate problem they are solving and a
     4. Choose a style: pithy; concise; downright poetic; collegiate with flowing prose and 7 syllable words
     5. Make it look good: sometimes presentation is every bit, if not more, important that content
     6. Get back to people: don't forget to respond to e-mails; keep interested parties in the loop
-2. **TIP 10: IT'S BOTH WHAT YOU SAY AND THE WAY YOU SAY IT **— sometimes, presentation is every bit, if not more, important than content
+2. **TIP 10: IT'S BOTH WHAT YOU SAY AND THE WAY YOU SAY IT** — sometimes, presentation is every bit, if not more, important than content
     1. **W**hat do you want them to learn?
     2. What is their **i**nterest in what you’ve got to say?
     3. How **s**ophisticated are they?

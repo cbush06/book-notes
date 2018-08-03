@@ -56,7 +56,7 @@ There are certain tips and tricks that apply at all levels of software developme
 4. **Increased Productivity** from Orthogonality
     1. Changes are localized/isolated, thus, reducing development time and complexity
     2. Promotes re-use. Because orthogonal components of code have a clear, well-defined purpose and limited dependencies, they are _easy to plug and play._
-5. **Reduced Risk **from Orthogonality
+5. **Reduced Risk** from Orthogonality
     1. Problematic code is isolated and easy to replace with better code
     2. System is more robust because changes are isolated and do not have unpredictable, rippling effects
     3. Easier to test because you can test individual components in an independent maner
