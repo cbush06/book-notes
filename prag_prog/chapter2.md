@@ -71,7 +71,7 @@ There are certain tips and tricks that apply at all levels of software developme
     2. Use Aspect-Oriented Programming to reduce duplication and isolate changes
     3. Use standard interfaces to access the external implementation (e.g. use JPA's annotations with the Hibernate implementation)
 9. Orthogonal Code
-    1. **Keep your code decoupled. **Use accessor/mutator methods and make member fields private.
+    1. **Keep your code decoupled.** Use accessor/mutator methods and make member fields private.
     2. **Avoid global data.**  Explicitly pass context to constructors, functions, etc. Avoid treating singleton's as global data stores.
     3. **Avoid similar functions.** Abstract away similar functionality using tools like the *[Strategy Pattern](https://en.wikipedia.org/wiki/Strategy_pattern)*.
 10. Testing
