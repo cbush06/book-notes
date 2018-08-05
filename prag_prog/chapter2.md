@@ -161,13 +161,12 @@ There are certain tips and tricks that apply at all levels of software developme
 1. **TIP 18: ESTIMATE TO AVOID SURPRISES**
 2. Units make a difference! More Precise Scale → More Accurate Estimate.
 
-|Duration	|Quote Estimate in	|
-|---	|---	|
-|1-15 days	|days	|
-|3-8 weeks	|weeks	|
-|8-30 weeks	|months	|
-|30+ weeks	|avoid giving an estimate	|
-|	|	|
+| Duration   | Quote Estimate in        |
+| ---------- | ------------------------ |
+| 1-15 days  | days                     |
+| 3-8 weeks  | weeks                    |
+| 8-30 weeks | months                   |
+| 30+ weeks  | avoid giving an estimate |
 
 1. If possible, ask someone who's already done it
 2. Build a mental model of the problem (i.e. think through the steps, resources, complexities, etc. required)

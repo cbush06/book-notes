@@ -12,7 +12,7 @@ _Pragmatic Programmers_ look beyond the immediate problem they are solving and a
 ## Software Entropy
 
 > **What causes “software rot” around our office?**<br/>
-> Hunt tells us, “There are many factors that can contribute to software rot. The most important one seems to be the psychology, or culture, at work on a project.
+> The authors tell us, “There are many factors that can contribute to software rot. The most important one seems to be the psychology, or culture, at work on a project.
 
 1. **Software Rot:** when *disorder* increases in a software system
 2. Despite the best plans, people, technology, tools, etc., a project can still experience decay
@@ -36,14 +36,14 @@ _Pragmatic Programmers_ look beyond the immediate problem they are solving and a
 1. Sometimes _you have to be the catalyst_
 2. There are times when you must be prepared to “beg for forgiveness” rather than “asking for permission” — especially when your end goal is in everyone's best interest
 3. _Start-up Fatigue_: people guarding their resources, wanting to form committees, required budget approvals
-4. _Prototypes_ and _Wireframes_ are good tools for Hunt's (pg. 8) solution, “Work out what you can reasonably ask for. Develop it well. Once you've got it, show people, and let them marvel.”
-5. People find it easier to join an ongoing success. — Hunt, pg. 8
+4. _Prototypes_ and _Wireframes_ are good tools for the authors' (pg. 8) solution, “Work out what you can reasonably ask for. Develop it well. Once you've got it, show people, and let them marvel.”
+5. People find it easier to join an ongoing success. —  pg. 8
 6. **TIP 5: BE THE CATALYST FOR CHANGE**
     1. Be the person who builds the prototype or wireframe
     2. Be the person who writes “the way forward” presentation or the proposal paper
 
 > **What are the consequences of putting off fixing or boarding up broken windows? Who is the “boiled frog”?**<br/>
-> The “boiled frog” Hunt mentions is a metaphor for developers who grow too comfortable with the broken windows in their project; in fact, they grow so comfortable that the project reaches a point where it cannot be salvaged. Hopefully, if that time comes, someone steps up and makes *stone soup*.
+> The “boiled frog” the authors mention is a metaphor for developers who grow too comfortable with the broken windows in their project; in fact, they grow so comfortable that the project reaches a point where it cannot be salvaged. Hopefully, if that time comes, someone steps up and makes *stone soup*.
 
 ## Good-enough Software
 
@@ -63,7 +63,7 @@ _Pragmatic Programmers_ look beyond the immediate problem they are solving and a
 > **What are some resources for building our knowledge portfolios?**<br/>
 > What you're doing now! Read forums and tech news (e.g. slashdot, hacker news). Join IEEE and read their Computer, IEEE Spectrum, or Software magazines.
 
-1. As the value of your knowledge declines, so does your value to your company or client. — Hunt, pg. 12
+1. As the value of your knowledge declines, so does your value to your company or client. — pg. 12
 2. **TIP 8: INVEST REGULARLY IN YOUR KNOWLEDGE PORTFOLIO**
     1. _Invest regularly_: read — always; stay informed of new trends, technologies, techniques, tools
     2. _Diversify_: try out different languages and frameworks; test new tools; study other areas of application development (we mainly deal with reporting/logistics apps, try out a big data project, build a game, etc.)

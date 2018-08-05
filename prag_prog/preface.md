@@ -6,7 +6,7 @@
 ## What Makes a Pragmatic Programmer?
 
 > **What do you gain by taking the time to think about how you do your work?**<br/>
-> The reward is a more active involvement with a job you love, a feeling of mastery over an increasing range of subjects, and pleasure in a feeling of continuous improvement. Over the long term, your time investment will be repaid as you and your team become more efficient, write code that’s easier to maintain, and spend less time in meetings. — Hunt, pg. xx
+> The reward is a more active involvement with a job you love, a feeling of mastery over an increasing range of subjects, and pleasure in a feeling of continuous improvement. Over the long term, your time investment will be repaid as you and your team become more efficient, write code that’s easier to maintain, and spend less time in meetings. — pg. xx
 
 1. Developers have their own strengths and weaknesses. Each will craft a personal environment (editors, IDEs, languages, OS, scripts, etc.).
 2. Pragmatic Programmers:
@@ -25,7 +25,7 @@
 
 > **How can we rectify individuality within a structured, software engineering project?**<br/>
 > Within the overall structure of a project there is always room for individuality and craftsmanship...One hundred years from now, our engineering may seem as archaic as the techniques used by medieval cathedral builders seem to today's civil engineers, while our craftsmanship will still be honored. 
-— Hunt, pg. xxi
+— pg. xxi
 
 1. Programmers *should *be allowed individuality!
 2. Software Development *should* be an _engineering discipline_, but that doesn't preclude individual craftsmanship
