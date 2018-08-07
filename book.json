@@ -2,6 +2,5 @@
     "title": "Book Notes",
     "description": "Notes on books recommended for professional development of developers, analysts, and project leads.",
     "author": "Clinton Bush",
-    "output": "docs",
-    "plugins": ["-livereload"]
+    "output": "docs"
 }
