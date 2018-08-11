@@ -1,0 +1,452 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Chapter 8 -- Pragmatic Projects · Book Notes</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Clinton Bush">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="chapter7.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Pragmatic Programmer
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="preface.html">
+            
+                <a href="preface.html">
+            
+                    
+                    Preface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    Chapter 1 -- A Pragmatic Philosophy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="chapter2.html">
+            
+                <a href="chapter2.html">
+            
+                    
+                    Chapter 2 -- A Pragmatic Approach
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="chapter3.html">
+            
+                <a href="chapter3.html">
+            
+                    
+                    Chapter 3 -- The Basic Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="chapter7.html">
+            
+                <a href="chapter7.html">
+            
+                    
+                    Chapter 7 -- Before the Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="chapter8.html">
+            
+                <a href="chapter8.html">
+            
+                    
+                    Chapter 8 -- Pragmatic Projects
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Chapter 8 -- Pragmatic Projects</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="chapter-8-&#x2014;-pragmatic-projects">Chapter 8 &#x2014; Pragmatic Projects</h1>
+<h2 id="ubiquitous-automation">Ubiquitous Automation</h2>
+<blockquote>
+<p>Although computing is still an industry at the Model-T stage, we can&#x2019;t
+afford to go through two pages of instructions again and again for some
+common operation. Whether it is the build and release procedure, code
+review paperwork, or any other recurring task on the project, it has to
+be automatic. &#x2014; pg. 230</p>
+</blockquote>
+<h3 id="all-on-automatic">All on Automatic</h3>
+<p><strong>TIP 61: DON&apos;T USE MANUAL PROCEDURES</strong></p>
+<ul>
+<li>Where possible, automated procedures should be used in lieu of manual instructions</li>
+<li>Modern tools include:<ul>
+<li>Shell scripts</li>
+<li>Python, PERL, etc.</li>
+<li>Virtual machine images</li>
+<li>Docker</li>
+<li>Vagrant</li>
+<li>JUnit</li>
+<li>Cucumber</li>
+<li>Cron jobs</li>
+</ul>
+</li>
+</ul>
+<h3 id="compiling-the-project">Compiling the Project</h3>
+<ul>
+<li>Compiling should/must be automated</li>
+<li>Tools include (plenty of choices):<ul>
+<li>Ant</li>
+<li>Make</li>
+<li>Maven</li>
+<li>Webpack</li>
+<li>Gradle</li>
+<li>Gulp</li>
+<li>Parcel</li>
+</ul>
+</li>
+<li>Unit tests/regression tests should be <em>hooked</em> into the build process so they are automated</li>
+</ul>
+<h3 id="build-automation">Build Automation</h3>
+<blockquote>
+<p><strong>Compiling</strong> is the process of turning source code into object code. <strong>Building</strong> a 
+project includes the other steps required to make a project deployable and executable.
+These include packaging the files, generating installers, running quality checks, and more.</p>
+</blockquote>
+<ul>
+<li>Builds should be run automatically on a regular schedule</li>
+<li>Many of the tools listed above can automate the process of building the system</li>
+<li>To fully automate <em>scheduled</em> builds, a Continuous Integration/Continuous Deliver system should be used. Such tools include:<ul>
+<li>Jenkins</li>
+<li>GitLab</li>
+<li>Concourse</li>
+</ul>
+</li>
+<li>More advanced tools can even package your application into a virtual machine image so there is zero configuration required to deploy it. Instead, you just drop your VM image into a container orchestration system like Kubernetes and you&apos;re done.</li>
+</ul>
+<h3 id="automation-administrivia">Automation Administrivia</h3>
+<blockquote>
+<p>Because memory is the second thing you lose as you age, we don&#x2019;t
+want to rely on it too heavily. We can run scripts to perform procedures
+for us automatically, based on the content of source code and
+documents. Our goal is to maintain an automatic, unattended, content-
+driven workflow. &#x2014; pg. 234</p>
+</blockquote>
+<h4 id="web-site-generation">Web Site Generation</h4>
+<ul>
+<li>Documentation that is extracted from code, requirements analyses, design documents, and any drawings, charts, or graphs all need to be published automatically</li>
+<li>This is the DRY principle in action again</li>
+<li>The various presentations/formats of documents should be generated automatically from their authoritative source</li>
+</ul>
+<h2 id="its-all-writing">It&apos;s All Writing</h2>
+<p><strong>TIP 67: TREAT ENGLISH AS JUST ANOTHER PROGRAMMING LANGUAGE</strong></p>
+<ul>
+<li>In other words, apply all our <em>pragmatic principles</em> to documentation generated for a project</li>
+<li>2 kinds of documentation for a project:<ul>
+<li><strong>Internal</strong> documentation includes source code, comments, and design and test documents</li>
+<li><strong>External</strong> documentation is anything shipped or published to the outside world (e.g. user manuals, help files, etc.)</li>
+</ul>
+</li>
+<li>All documentation is a <em>mirror of the code.</em> If there&apos;s a discrepancy, the code rules.</li>
+</ul>
+<p><strong>TIP 68: BUILD DOCUMENTATION IN, DON&apos;T BOLT IT ON</strong></p>
+<h3 id="comments-in-code">Comments in Code</h3>
+<ul>
+<li>Generating formatted documents from code comments is <strong>easy.</strong> Think JavDoc.</li>
+<li>Donald Knuth took it a step further with his <em>literate programming,</em> but this never really caught on</li>
+<li>In the scientific community, executable reports offer an interesting twist...using code to explain your comments: see <a href="http://jupyter.org/" target="_blank">Jupyter Notebook</a> and <a href="http://beakerx.com/" target="_blank">BeakerX</a></li>
+</ul>
+<blockquote>
+<p>Except in rare cases (e.g. complex algorithms, mathematical formulas, etc.),
+use comments to explain <em>why</em> not <em>how</em>. Your code explains the <em>how.</em></p>
+</blockquote>
+<ul>
+<li>90% of programming is naming things. Name your variables, methods, and classes <strong>well</strong> and they won&apos;t require comments.</li>
+<li>Sometimes, it&apos;s even helpful to extract blocks of code into small methods so you can <strong>name the block of code.</strong></li>
+</ul>
+<h3 id="executable-documents">Executable Documents</h3>
+<ul>
+<li>Where possible, store documents as <strong>plain text</strong> with <strong>markup commands</strong></li>
+<li>Now the document can be processed and exported to a myriad of formats (PDF, epub, modi, HTML, and more)</li>
+<li>Markup formats include:<ul>
+<li>Markdown</li>
+<li>AsciiDoc</li>
+<li>Textile</li>
+<li>reStructuredText</li>
+<li>LATEX</li>
+<li>Pendown</li>
+</ul>
+</li>
+<li>Example tools include:<ul>
+<li>LATEX</li>
+<li>GitBook</li>
+<li>HTML (not recommended)</li>
+<li>Jekyll</li>
+<li>Hugo</li>
+<li>VuePress</li>
+<li>Gatsby</li>
+<li>Nuxt</li>
+<li>Sphinx</li>
+<li>Pendown</li>
+</ul>
+</li>
+</ul>
+<h3 id="print-it-or-weave-it">Print It or Weave It</h3>
+<ul>
+<li>Hyperlink or import documents into other documents rather than duplicating the information</li>
+<li>This adheres to the DRY principle by maintaining an authoritative source for information</li>
+<li>Many of the tools listed above in &quot;Executable Documents&quot; support this</li>
+</ul>
+<h4 id="including-one-markdown-file-in-another-markdown-file-using-gitbook">Including one Markdown file in another Markdown file using Gitbook:</h4>
+<pre><code>{% include &quot;./test.md&quot; %}
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="chapter7.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Chapter 7 -- Before the Project">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Chapter 8 -- Pragmatic Projects","level":"1.2.6","depth":2,"previous":{"title":"Chapter 7 -- Before the Project","level":"1.2.5","depth":2,"path":"prag_prog/chapter7.md","ref":"prag_prog/chapter7.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Clinton Bush","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Book Notes","gitbook":"*","description":"Notes on books recommended for professional development of developers, analysts, and project leads."},"file":{"path":"prag_prog/chapter8.md","mtime":"2018-08-11T01:35:58.305Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-11T01:40:35.152Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

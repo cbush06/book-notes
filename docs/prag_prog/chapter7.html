@@ -1,0 +1,394 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Chapter 7 -- Before the Project · Book Notes</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Clinton Bush">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="chapter8.html" />
+    
+    
+    <link rel="prev" href="chapter3.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Pragmatic Programmer
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="preface.html">
+            
+                <a href="preface.html">
+            
+                    
+                    Preface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    Chapter 1 -- A Pragmatic Philosophy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="chapter2.html">
+            
+                <a href="chapter2.html">
+            
+                    
+                    Chapter 2 -- A Pragmatic Approach
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="chapter3.html">
+            
+                <a href="chapter3.html">
+            
+                    
+                    Chapter 3 -- The Basic Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.5" data-path="chapter7.html">
+            
+                <a href="chapter7.html">
+            
+                    
+                    Chapter 7 -- Before the Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="chapter8.html">
+            
+                <a href="chapter8.html">
+            
+                    
+                    Chapter 8 -- Pragmatic Projects
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Chapter 7 -- Before the Project</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="chapter-7-&#x2014;-before-the-project">Chapter 7 &#x2014; Before the Project</h1>
+<h2 id="the-requirements-pit">The Requirements Pit</h2>
+<blockquote>
+<p>The word <em>gathering</em> seems to imply a tribe of happy analysts, foraging for nuggets of wisdom
+that are lying on the ground all around them while the Pastoral Symphony plays gently in the
+background. <em>Gathering</em> implies that the requirements are already there &#x2014; you need merely to
+find them, place them in your basket, and be merrily on your way. &#x2014; pg. 202</p>
+</blockquote>
+<p><strong>It doesn&apos;t quite work that way.</strong> Requirements rarely lie on the surface. Normally, they&apos;re buried deep beneath layers of assumptions, misconceptions, and politics.</p>
+<blockquote>
+<p><em>I believe requirements are often unacknowledged (or even unknown) habits, patterns, processes,
+and rules documented only in the minds of members of the organization for whom you are building
+a system.</em></p>
+</blockquote>
+<p><strong>TIP 51: DON&apos;T GATHER REQUIREMENTS&#x2014;DIG FOR THEM</strong></p>
+<h3 id="digging-for-requirements">Digging for Requirements</h3>
+<h4 id="how-to-recognize-a-requirement-while-digging">How to Recognize a Requirement While Digging</h4>
+<ul>
+<li>Requirements are statements of something that needs to be accomplished. For example: <em>An employee record may be viewed only by authorized users.</em></li>
+<li><strong>Beware</strong> of <em>business rules disguised as requirements</em><ul>
+<li>Consider the difference between: <ul>
+<li>&quot;Only an employee&#x2019;s supervisors and the personnel department may view that employee&#x2019;s records.&quot;</li>
+<li>&quot;An employee record may be viewed only by authorized users.&quot;</li>
+</ul>
+</li>
+<li>A good analyst would see that for what it is, <em>a business rule that is subject to change.</em> </li>
+<li>In these cases, the analyst should generalize the business rule into a requirement so developers implement it in a flexible manner that can change with the business rules.</li>
+</ul>
+</li>
+<li>Often, business rules and policies are implemented as metadata that is used by the system (e.g. storing role-permission mappings in a database table).</li>
+<li><strong>Beware</strong> of <em>implementations disguised as requirements</em><ul>
+<li>Consider the difference between:<ul>
+<li>&quot;The system must let you choose a loan term.&quot;</li>
+<li>&quot;A list box allows users to select the loan term.&quot;</li>
+</ul>
+</li>
+<li>Is a <em>list box</em> really the most appropriate control for choosing a loan term? What about a slider? A text box? Radio buttons?</li>
+<li>Analysts must be careful to leave the implementation details to UX designers and developers, except in those rare cases where the users <em>demand</em> a certain implementation.</li>
+</ul>
+</li>
+<li><strong>Beware</strong> of mistaking <em>how</em> users do something for <em>why</em> users do something. <ul>
+<li>Just because users have always done a task a certain way <em>does not</em> mean it&apos;s the best way.</li>
+<li><strong>Your development has to solve their <em>business problem</em>, not just meet their stated requirements.</strong></li>
+</ul>
+</li>
+<li>Become the user! Spend a couple days watching the users do what they do.</li>
+</ul>
+<p><strong>TIP 52: WORK LIKE A USER TO THINK LIKE A USER</strong></p>
+<h3 id="documenting-requirements">Documenting Requirements</h3>
+<blockquote>
+<p>Ivar Jacobson proposed the concept of <strong>use cases</strong> in his seminal work <em>Object Oriented Software Engineering:
+A Use Case Driven Approach</em> published in 1992. He has since revised his recommended approach to writing use
+cases in his small, freely available ebook <a href="https://www.ivarjacobson.com/publications/white-papers/use-case-ebook" target="_blank">USE-CASE 2.0</a>.</p>
+</blockquote>
+<ul>
+<li>When writing use cases, emphasize their <em>goal-driven</em> nature</li>
+<li>Ivar Jacobson&apos;s <em>Use-Case 2.0</em> recommends using &quot;Use-Case Slices&quot; that are composed of several related &quot;Use-Cases&quot;. This approach is similar in nature to how Agile uses &quot;Epics&quot; composed of &quot;User Stories&quot;.</li>
+<li>For more information on writing Use Cases, read Alistair Cockburn&apos;s book &quot;Writing Effective Use Cases.&quot; The U.S. Government also offers a concise page with advice and Use Case templates at <a href="https://www.usability.gov/how-to-and-tools/methods/use-cases.html" target="_blank">Use Case</a>.</li>
+<li>A big danger in producing a requirements document is being too specific. Good requirements documents remain abstract.</li>
+</ul>
+<p><strong>TIP 53: ABSTRACTIONS LIVE LONGER THAN DETAILS</strong></p>
+<h3 id="just-one-more-wafer-thin-mint">Just One More Wafer-Thin Mint...</h3>
+<blockquote>
+<p>The key to managing growth of requirements is to point out each new
+feature&#x2019;s impact on the schedule to the project sponsors. &#x2014; pg. 210</p>
+</blockquote>
+<p>Remember the boiled frogs? <em>Scope creep</em> is very similar in nature. You add <em>just one more requirement.</em> And then another...and another... And before you know it, your project&apos;s delivery date is so far in the future you wonder if it will ever be completed.</p>
+<p>You must track and manage each requirement. The most important part of this process is determining each requirement&apos;s impact on the schedule.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="chapter3.html" class="navigation navigation-prev " aria-label="Previous page: Chapter 3 -- The Basic Tools">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="chapter8.html" class="navigation navigation-next " aria-label="Next page: Chapter 8 -- Pragmatic Projects">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Chapter 7 -- Before the Project","level":"1.2.5","depth":2,"next":{"title":"Chapter 8 -- Pragmatic Projects","level":"1.2.6","depth":2,"path":"prag_prog/chapter8.md","ref":"prag_prog/chapter8.md","articles":[]},"previous":{"title":"Chapter 3 -- The Basic Tools","level":"1.2.4","depth":2,"path":"prag_prog/chapter3.md","ref":"prag_prog/chapter3.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Clinton Bush","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Book Notes","gitbook":"*","description":"Notes on books recommended for professional development of developers, analysts, and project leads."},"file":{"path":"prag_prog/chapter7.md","mtime":"2018-08-11T00:08:43.981Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-11T01:40:35.152Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
