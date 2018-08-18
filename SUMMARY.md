@@ -11,5 +11,5 @@
 * [Peopleware](peopleware/README.md)
     * [Preface](peopleware/preface.md)
     * [Chapter 1 — Project Failure](peopleware/chapter1.md)
-    * [Chapter 2 — Development and Production are Two Very Different Things](peopleware/chpater2.md)
+    * [Chapter 2 — Development and Production are Two Very Different Things](peopleware/chapter2.md)
     * [Chapter 3 — Be Wary of Overtime and Workaholics](peopleware/chapter3.md)
