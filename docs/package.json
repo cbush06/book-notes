@@ -1,0 +1,12 @@
+{
+  "name": "booknotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start": "gitbook serve . docs",
+      "build": "gitbook build . docs"
+  },
+  "author": "",
+  "license": "ISC"
+}
