@@ -13,3 +13,6 @@
     * [Chapter 1 — Project Failure](peopleware/chapter1.md)
     * [Chapter 2 — Development and Production are Two Very Different Things](peopleware/chapter2.md)
     * [Chapter 3 — Be Wary of Overtime and Workaholics](peopleware/chapter3.md)
+    * [Chapter 4 — Increased Quality Raises Productivity and Lowers Cost](peopleware/chapter4.md)
+    * [Chapter 5 — Parkinson's Law](peopleware/chapter5.md)
+    * [Chapter 6 — Laetrile](peopleware/chapter6.md)
